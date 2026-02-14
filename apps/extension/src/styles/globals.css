@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  min-width: 360px;
+  font-family: "Space Grotesk", "Avenir Next", sans-serif;
+  background: #f4f2ec;
+  color: #1d2a2f;
+}
