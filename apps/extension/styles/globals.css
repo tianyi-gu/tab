@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(145deg, #f7faf7, #eef4f0);
+  color: #1f2e24;
+}
+
+/* Side panel / library full height */
+html.sidepanel,
+html.sidepanel body,
+#__plasmo {
+  height: 100%;
+}

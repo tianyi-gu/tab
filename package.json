@@ -1,0 +1,14 @@
+{
+  "name": "tabmagic",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w @tabmagic/extension",
+    "build": "npm run build -w @tabmagic/extension",
+    "typecheck": "npm run typecheck -w @tabmagic/core && npm run typecheck -w @tabmagic/extension"
+  }
+}
