@@ -1,6 +1,6 @@
 import Fastify from "fastify"
-import { registerPlugins } from "./plugins/register-plugins"
-import { registerRoutes } from "./routes"
+import { registerPlugins } from "./plugins/register-plugins.js"
+import { registerRoutes } from "./routes/index.js"
 
 export async function buildServer() {
   const app = Fastify({ logger: true })
